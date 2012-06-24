@@ -1,1 +1,15 @@
 A javascript library to show preview of selected text in wikipedia inside an iframe on the page. 
+
+Below is an example of how it needs to be called
+
+'''
+//To display the iframe with the preview
+$().wpreview({"left":"200px","top":"20px", "text":"apple", "func":"wikipreview"});
+
+
+//To hide the iframe of preview
+$().wpreview({"left":"200px","top":"20px", "text":"apple", "func":"clearpreview"});
+
+'''
+
+There is a demo file called demo.html which shows the use of this plugin, enjoy :-)

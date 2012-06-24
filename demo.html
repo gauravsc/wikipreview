@@ -1,0 +1,27 @@
+
+
+<html>
+<head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="wikipreview.js"></script>
+<script type="text/javascript">
+$(function(){
+
+$('p').hover(function(){$(this).stop();$().wpreview({"left":"200px","top":"20px", "text":"apple", "func":"wikipreview"});},function(){$(this).stop();$().wpreview({"left":"200px","top":"20px", "text":"apple", "func":"clearpreview"});});
+});
+
+</script>
+
+</head>
+
+<body>
+
+
+<p>Hover Here</p>
+
+<div> Now Hover Here </div>
+
+
+</body>
+
+</html>
